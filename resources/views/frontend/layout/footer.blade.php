@@ -6,7 +6,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-12 col-sm-12 footer-widget">
                         <div class="footer-social mb-20 md-mb-30">
-                            <a href="#"><img src="wp-content/themes/aplinkatheme/assets/images/logo-dark.png" alt=""></a>
+                            <a href="#"><img src="wp-content/themes/Aplinkatheme/assets/images/logo-dark.png" alt=""></a>
                         </div>
                             <div class="textwidget white-color pb-30"><p>We Believe in making the world a better place to live. All our efforts are towards helping create a sustainable environment.
                             However, this depends on YOU too. Let us know how we can work together towards this noble cause. We are eager to hear back from YOU</p>

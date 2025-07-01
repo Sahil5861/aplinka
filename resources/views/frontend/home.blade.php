@@ -774,7 +774,7 @@
                     <div class="testi-item">
                         <div class="author-desc">
                             <div class="desc"><img class="quote"
-                                    src="wp-content/themes/aplinkatheme/assets/images/testimonial/main-home/quote-white.png"
+                                    src="wp-content/themes/Aplinkatheme/assets/images/testimonial/main-home/quote-white.png"
                                     alt="">We are highly satisfied with Aplinka in the role of our environmental
                                 consultant. We have been working with them for the last SEVEN years on several
                                 diverse environmental regulatory and non-regulatory needs and they have excelled
@@ -791,7 +791,7 @@
                     <div class="testi-item">
                         <div class="author-desc">
                             <div class="desc"><img class="quote"
-                                    src="wp-content/themes/aplinkatheme/assets/images/testimonial/main-home/quote-white.png"
+                                    src="wp-content/themes/Aplinkatheme/assets/images/testimonial/main-home/quote-white.png"
                                     alt="">The services being provided by Aplinka for their advisory services and
                                 other environment related matters coupled with timely guidance is highly
                                 commendable.</div>

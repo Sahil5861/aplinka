@@ -4,15 +4,15 @@
         <!-- header end-->
         <!-- Breadcrumbs Start -->
         <div class="rs-breadcrumbs img1"
-            style="background: url({{asset('assets/images/cgwa-banner.jpg')}});">
+            style="background: url({{asset('assets/images/design-banner.jpg')}});">
             <div class="breadcrumbs-inner text-center">
-                <h1 class="page-title">Ground Water Clearances</h1>
+                <h1 class="page-title">Design Services for Environmental Solutions</h1>
                 <ul>
                     <li title="Braintech - IT Solutions and Technology Startup HTML Template">
                         <a class="active" href="environmental-clearance/index.html">Home</a>
                     </li>
                     <li>Services /</li>
-                    <li>Ground Water Clearances</li>
+                    <li>Design Services</li>
                 </ul>
             </div>
         </div>
@@ -24,7 +24,7 @@
                     <div class="col-lg-6 md-mb-30">
                         <div class="rs-animation-shape">
                             <div class="images">
-                                <img src="{{asset('assets/images/cgwa-img.jpg')}}" alt="">
+                                <img src="{{asset('assets/images/design-art.jpg')}}" alt="">
                             </div>
                         </div>
                     </div>
@@ -33,13 +33,12 @@
                             <div class="sec-title mb-30">
                                 <div class="sub-text style-bg">Services</div>
                                 <h2 class="title pb-38">
-                                    Groundwater Clearances in India
+                                    Design Services for Environmental Solutions
                                 </h2>
                                 <div class="desc pb-35">
-                                    The <strong>Central Ground Water Authority (CGWA)</strong>, established under Section 3(3) of the Environment (Protection) Act, 1986, is the primary regulatory body overseeing groundwater extraction and management across India. Its core mandate is to ensure sustainable development and responsible utilization of the nation's groundwater resources.
+                                     An optimal design, meticulously coupled with the selection of the most suitable implementation technology, is paramount for the success and efficiency of any product or system, particularly within the environmental sector. {{env('SITENAME')}} , operating on the philosophy of transforming "suggestions into solutions," offers comprehensive design services tailored to a wide array of environmental infrastructure needs. This includes, but is not limited to,<strong>Sewage Treatment Plants (STPs), Effluent Treatment Plants (ETPs), Rainwater Harvesting Systems, Organic Waste Converters,</strong> and various other similar and related requirements.
                                 </div>
                                 <div class="desc pb-35">
-                                    To achieve this, the CGWA has laid down comprehensive <strong>guidelines for obtaining No Objection Certificates (NOCs)</strong> for groundwater withdrawal. These guidelines apply to various entities, including <strong>industries, infrastructure projects, and mining operations   </strong>, and are subject to periodic revisions to address evolving environmental needs and water availability. The uniformity of these regulations means they are <strong>applicable nationwide</strong> across all States and Union Territories, ensuring a consistent approach to groundwater management.
                                 </div>
                             </div>
                         </div>
@@ -47,8 +46,24 @@
                     <div class="col-lg-12">
                         <div class="sec-title mb-30">
                             <div class="desc pb-35">
-                                Prospective applicants seeking groundwater abstraction clearances must submit their applications online through the official portal, www.cga-noc.gov.in. The processing of these applications, including the specific authority responsible for approval, is determined by factors such as the volume of groundwater required and the categorization of the area from which the water will be drawn. This structured approach helps the CGWA effectively monitor and regulate groundwater use, striving for a balance between developmental needs and environmental protection.
-                            </div>                                                    
+                                {{-- To navigate the EC process, project proponents are required to engage the services of a QCI-NABET (Quality Council of India - National Accreditation Board for Education and Training) certified consultant. These consultants are responsible for preparing a comprehensive Environmental Impact Assessment (EIA) report, which serves as the primary document for evaluating the project's environmental implications. --}}
+                            </div>
+                            
+                            <div class="desc pb-20 fontbold">
+                                Our design approach is highly customer-centric, ensuring that each solution is precisely engineered to meet specific operational and regulatory demands. The methodology typically involves the following key stages:
+                            </div>
+                            <ul style="list-style: disc; padding: 0px 26px;">
+                                <li><strong>Identifying Core Design Needs:</strong> The initial phase involves close collaboration with the client to thoroughly understand their specific environmental challenges, operational objectives, and desired outcomes. This forms the bedrock for the entire design process.</li>
+                                <li><strong>Comprehensive Data Gathering:</strong>We collect all pertinent details, including existing regulatory sanctions and upcoming requirements, desired treatment or processing capacities, provisions for future expansion, site-specific space constraints, and any other unique operational or logistical needs that might influence the design.</li>                                
+                                <li><strong>Technology Evaluation and Selection:</strong> Our team conducts an exhaustive brainstorming session to identify and evaluate various possible technology options. This involves a rigorous assessment of their respective advantages and disadvantages, detailed cost implications (both capital and operational), and their suitability given any existing site-specific or operational constraints. The aim is to converge on the most optimal and cost-effective technological choices.</li>                                
+                                <li><strong>Conceptual and Engineering Design:</strong> Based on the chosen technology, we proceed with the conceptual design, translating ideas into preliminary engineering drawings. These drawings are then shared with the client for detailed discussions, feedback, and necessary adjustments to ensure alignment with their vision and requirements.</li>                                
+                                <li><strong>Detailed Engineering and Bill of Quantity (BOQ) Development: </strong>Once the overall design is finalized, we delve into the intricate details. This involves specifying various electrical and mechanical components, their makes, capacities, quantities, and other auxiliary equipment required. The outcome of this stage is a comprehensive  <strong>detailed design</strong>along with a final <strong>Bill of Quantity (BOQ)</strong>,often including suggested manufacturers or makes for key components.</li>                                
+                                <li><strong>Collaborative Refinement: </strong>We maintain an open channel for follow-up discussions and are prepared to incorporate any required minor modifications to the design, ensuring complete client satisfaction and optimal functionality.</li>                                
+                                <li><strong>Final Deliverables: </strong> The culmination of our design services is the delivery of a complete package comprising detailed engineering drawings and the finalized Bill of Quantity (BOQ), providing the client with all necessary information for procurement and implementation.</li>                            
+                            </ul>
+                            <div class="desc pb-35">
+                               Through this meticulous and collaborative design process, {{env('SITENAME')}}  ensures that environmental solutions are not only compliant and effective but also optimized for efficiency, sustainability, and long-term performance.
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -57,20 +72,20 @@
             </div>
         </div>
         <!-- About Section End -->
-        <div class="rs-contact-wrap bg5 pt-80 pb-80 md-pt-80 pb-80" style="background: linear-gradient(rgb(0 24 24 / 84%) 100%, rgb(0 44 2) 100%), url(https://www.pnas.org/content/118/32/e2112863118/F1.large.jpg) no-repeat;
+        <div class="rs-contact-wrap bg5 pt-80 pb-80 md-pt-80 pb-80" style="    background: linear-gradient(rgb(0 24 24 / 84%) 100%, rgb(0 44 2) 100%), url(https://www.pnas.org/content/118/32/e2112863118/F1.large.jpg) no-repeat;
             background-size: cover;">
             <div class="container">
                 <div class="sec-title2 text-center mb-30">
-                    <p class="title white-color" style="max-width:100%;">
-                        Would You Like to know more on how {{env('SITENAME')}}  can help you meet your CGWA needs?</p>
+                    <p class="title white-color" style="max-width:100%;">Would you like to explore how {{env('SITENAME')}}  can further assist your organization in conducting robust periodic compliance audits and ensuring continuous adherence to the latest environmental regulations and statutory norms?</p>
                     <button class="readon learn-more submit  mb-30  mt-30"><a href="contact-us.html"
                             class="text-white">Contact Us</a> </button>
-                    <div class="text-white">With extensive expertise and strong team of well qualified and experienced technologists, {{env('SITENAME')}}  is at the forefront for providing end to end solutions for Central Ground Water Clearance including hydro geological studies needs as per bylaws, exploring on campus and off campus options for compensating for the ground water used. {{env('SITENAME')}}  has been providing CGWA services at a Pan India level and completed more than 1000 such cases across several states in India.</div>
+                    <div class="text-white">With extensive expertise and strong team of well qualified and experienced Subject Matter Experts, {{env('SITENAME')}}  is well equipped to help you holistically evaluate your organizations performance towards all your environment needs through periodic audits. The model has been successfully implemented for several large corporates, industries and institutions. </div>
                 </div>
             </div>
         </div>
+        <hr>
         <!-- Pricing section start -->
-        <div class="rs-pricing style2 gray-color pt-80 pb-80 md-pt-80 md-pb-80">
+        {{-- <div class="rs-pricing style2 gray-color pt-80 pb-80 md-pt-80 md-pb-80">
             <div class="container">
                 <div class="sec-title2 text-center mb-45">
                     <h2 class="title title2">
@@ -82,67 +97,77 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo30.jpg')}}" alt="">
+                            <img src="{{asset('assets/images/partner/ec-logo1.jpg')}}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table">
-                            <img src="{{asset('assets/images/partner/client-logo22.jpg')}}" alt="">
+                            <img src="{{asset('assets/images/partner/ec-logo2.jpg')}}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/client-logo1.jpg')}}" alt="">
+                            <img src="{{asset('assets/images/partner/ec-logo3.jpg')}}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/client-logo17.jpg')}}" alt="">
+                            <img src="{{asset('assets/images/partner/ec-logo4.jpg')}}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/client-logo4.jpg')}}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 md-mb-30">
-                        <div class="pricing-table">
-                            <img src="{{asset('assets/images/partner/ec-logo31.jpg')}}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo24.jpg')}}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/client-logo5.jpg')}}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 md-mb-30">
-                        <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/client-logo9.jpg')}}" alt="">
+                            <img src="{{asset('assets/images/partner/ec-logo5.jpg')}}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table">
-                            <img src="{{asset('assets/images/partner/client-logo7.jpg')}}" alt="">
+                            <img src="{{asset('assets/images/partner/ec-logo6.jpg')}}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/client-logo24.jpg')}}" alt="">
+                            <img src="{{asset('assets/images/partner/client-logo2.jpg')}}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/client-logo3.jpg')}}" alt="">
+                            <img src="{{asset('assets/images/partner/ec-logo7.jpg')}}" alt="">
                         </div>
-                    </div>                    
+                    </div>
+                    <div class="col-lg-3 md-mb-30">
+                        <div class="pricing-table new-style2">
+                            <img src="{{asset('assets/images/partner/ec-logo8.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 md-mb-30">
+                        <div class="pricing-table">
+                            <img src="{{asset('assets/images/partner/client-logo13.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="pricing-table new-style2">
+                            <img src="{{asset('assets/images/partner/client-logo6.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="pricing-table new-style2">
+                            <img src="{{asset('assets/images/partner/ec-logo9.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 md-mb-30">
+                        <div class="pricing-table new-style2">
+                            <img src="{{asset('assets/images/partner/ec-logo10.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 md-mb-30">
+                        <div class="pricing-table">
+                            <img src="{{asset('assets/images/partner/ec-logo11.jpg')}}" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- Pricing section end -->
         <!-- Counter Section Start -->
         <div class="rs-contact-wrap bg5 pt-120 pb-390 md-pt-80" style="    background: linear-gradient(rgb(0 24 24 / 84%) 100%, rgb(0 44 2) 100%), url(https://www.pnas.org/content/118/32/e2112863118/F1.large.jpg) no-repeat;
