@@ -19,4 +19,9 @@ class FrontendController extends Controller
         $page = 'frontend.services.'.$slug;
         return view($page, compact('slug'));
     }
+
+    public function solutions($slug){
+        $page = 'frontend.solutions.'.$slug;
+        return view($page, compact('slug'));
+    }
 }

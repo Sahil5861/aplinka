@@ -1,18 +1,16 @@
 @extends('frontend.layout.base')
 @section('content')
-    <!--Full width header End-->
-        <!-- header end-->
-        <!-- Breadcrumbs Start -->
+    <!-- Breadcrumbs Start -->
         <div class="rs-breadcrumbs img1"
-            style="background: url({{asset('assets/images/EPC-banner.jpg')}});">
+            style="background: url({{asset('assets/images/effluent-treatment-plant.jpg')}});">
             <div class="breadcrumbs-inner text-center">
-                <h1 class="page-title">Environmental Clearance and EIA Studies</h1>
+                <h1 class="page-title">Effluent Treatment Plant</h1>
                 <ul>
                     <li title="Braintech - IT Solutions and Technology Startup HTML Template">
-                        <a class="active" href="environmental-clearance/index.html">Home</a>
+                        <a class="active" href="sewage-treatment-plant/index.html">Home</a>
                     </li>
-                    <li>Services /</li>
-                    <li>Environmental Clearance and EIA Studies</li>
+                    <li>Solutions /</li>
+                    <li>Effluent Treatment Plant</li>
                 </ul>
             </div>
         </div>
@@ -21,66 +19,112 @@
         <div class="rs-about gray-color pt-80 pb-80 md-pt-80 md-pb-80">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6 md-mb-30">
+                    {{-- <div class="col-lg-6 md-mb-30">
                         <div class="rs-animation-shape">
                             <div class="images">
-                                <img src="{{asset('assets/images/eic-img.jpg')}}" alt="">
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 pl-60 md-pl-15">
+                    </div> --}}
+                    <div class="col-lg-12">
                         <div class="contact-wrap">
                             <div class="sec-title mb-30">
-                                <div class="sub-text style-bg">Services</div>
-                                <h2 class="title pb-38">
-                                    Environmental Clearances and EIA Studies in India
+                                <h2 class="title pb-20">
+                                    Effluent Treatment Plant
                                 </h2>
-                                <div class="desc pb-35">
-                                    <strong>Environmental Clearance (EC)</strong> is a mandatory regulatory requirement for a diverse range of developmental projects in India, currently encompassing <strong>39 specified project types</strong>. The overarching objective of the EC process is to meticulously assess <strong>the potential environmental and social impacts</strong> of proposed projects and to integrate mitigation strategies to minimize any adverse effects.
+                                <div class="desc pb-20">
+                                    Effluent Treatment Plants (ETPs) are crucial for managing industrial wastewater. As industrialization, urbanization, and population grow, ETPs are becoming indispensable for both resource conservation and public health and safety.
                                 </div>
-                                <div class="desc pb-35">
-                                    The foundational framework for environmental clearances in India is laid out in the Environmental Impact Assessment (EIA) Notification, 2006, along with subsequent amendments and orders. This comprehensive legislation details the procedural steps involved, which typically include screening, scoping, and detailed evaluation of the project's environmental footprint.
+
+                                <h4 class="pb-20">
+                                    What is an Effluent Treatment Plant?
+                                </h4>
+                                <div class="desc pb-20">
+                                    An ETP is a facility specifically designed to treat industrial wastewater, making it suitable for reuse or safe discharge into the environment. These plants use various processes to act as barriers, eliminating different types of waste and chemical contaminants. The untreated industrial wastewater entering the ETP is called influent, and the treated water leaving it is known as effluent. The waste extracted during the treatment process is referred to as sludge.
                                 </div>
-                            </div>
+                                <h4 class="pb-20 mb-4">
+                                    Why Are ETPs Essential?
+                                </h4>
+                                <div class="desc">
+                                    ETPs offer significant benefits:
+                                    <ul>
+                                        <li><strong>Recycling and Reuse:</strong> ETPs clean industrial effluent, enabling its reuse within the industry, which helps conserve fresh water resources.</li>
+                                        <li><strong>Reduced Water Costs:</strong> By recycling water, industries can significantly cut down on the costs associated with procuring fresh, potable water.</li>
+                                        <li><strong>Regulatory Compliance:</strong> ETPs help industries meet strict government standards for pollutant emissions and discharge, avoiding compliance-related issues and environmental penalties.</li>
+                                        <li><strong>Environmental Protection:</strong> By treating industrial wastewater, ETPs safeguard the environment from pollution and contribute to sustainable development.</li>
+                                    </ul>
+                                </div>                                
+                            </div>                            
                         </div>
-                    </div>
-                    <div class="col-lg-12">
-                        <div class="sec-title mb-30">
-                            <div class="desc pb-35">
-                                To navigate the EC process, project proponents are required to engage the services of a QCI-NABET (Quality Council of India - National Accreditation Board for Education and Training) certified consultant. These consultants are responsible for preparing a comprehensive Environmental Impact Assessment (EIA) report, which serves as the primary document for evaluating the project's environmental implications.
-                            </div>
-                            
-                            <div class="desc pb-20 fontbold">
-                                The EIA Notification, 2006, categorizes projects into two main groups based on their potential scale of impact and regulatory oversight:
-                            </div>
-                            <ul style="list-style: disc; padding: 0px 26px;">
-                                <li><strong>Category 'A' Projects:</strong> These projects, typically of larger scale and potentially significant environmental impact, necessitate clearance from the <strong>Ministry of Environment, Forest and Climate Change (MoEF&CC)</strong> at the central government level.</li>
-                                <li><strong>Category 'B' Projects:</strong> Projects falling under this category, generally with more localized impacts, are processed and cleared by the respective <strong>State Environmental Impact Assessment Authority (SEIAA)</strong>.</li>                                
-                            </ul>
-                            <div class="desc pb-35">
-                                This tiered system ensures that environmental considerations are thoroughly integrated into the project planning and implementation phases, contributing to sustainable development practices across the country.
-                            </div>
-                        </div>
-                    </div>
+                    </div>                                        
                 </div>
                 <div class="shape-image">
                 </div>
             </div>
         </div>
         <!-- About Section End -->
+        <div class="rs-team pt-80 pb-80 md-pt-80 md-pb-80 xs-pb-54"
+            style="background: linear-gradient(135deg, #04a2b3, #45dfac);">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="pb-20 ledtxt dark-txt">A typical ETP operates through several stages to progressively purify industrial wastewater:</div>                    
+                    <div class="col-lg-6">
+                        <div class="sec-title mb-30">
+                            <div class="desc pb-30 dark-txt">
+                                <strong>Preliminary Stage</strong> <br>
+                                <p>This initial stage focuses on physically separating large impurities:</p>
+                                <ul style="list-style:disc;">
+                                    <li><strong>Screening and Sedimentation:</strong> Techniques like screening and sedimentation are used to remove big-sized items such as threads, cloth, plastics, wood logs, and other foreign objects.</li>
+                                </ul>
+                            </div>
+                            <div class="desc pb-30 dark-txt">
+                                <strong>Primary Stage</strong> <br>
+                                <p>This stage targets the removal of floating and settleable materials:</p> 
+                                <ul style="list-style:disc;">
+                                    <li><strong>Physical and Chemical Methods</strong>: This involves a combination of physical processes with chemical additions. Chemical processes are used for pH control, coagulation, chemical precipitation, and oxidation, altering the wastewater's quality.</li>
+                                </ul>
+                            </div>
+
+                            <div class="desc pb-30 dark-txt">
+                                <strong>Secondary Stage</strong> <br>
+                                <p>This stage primarily utilizes biological and additional chemical processes:</p>
+                                <ul style="list-style:disc;">
+                                    <li><strong>Biological Treatment</strong>: Most biological processes here rely on microorganisms, mainly bacteria. These can be aerobic (requiring oxygen) or anaerobic (without oxygen), breaking down organic matter in the wastewater.</li>
+                                </ul>
+                            </div>
+
+                            <div class="desc pb-30 dark-txt">
+                                <strong>Tertiary Stage</strong> <br>
+                                <p>The final cleaning process aims to further improve water quality before it's reused, recycled, or discharged:</p>
+                                <ul style="list-style:disc;">
+                                    <li><strong>Advanced Contaminant Removal</strong>: This stage removes remaining inorganic compounds and substances like nitrogen and phosphorus.</li>
+                                    <li><strong>Pathogen Elimination</strong>: Harmful bacteria, viruses, and parasites that pose risks to public health are also removed at this stage, ensuring the treated effluent is safe for its intended use or discharge into the environment.</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="desc dark-txt">
+                                The treated water from this final stage can then be used for non-drinking purposes like agriculture and flushing, or safely returned to rivers, lakes, and streams, contributing to water reclamation.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="top" src="{{asset('assets/images/effluent-treatment.png')}}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <div class="rs-contact-wrap bg5 pt-80 pb-80 md-pt-80 pb-80" style="    background: linear-gradient(rgb(0 24 24 / 84%) 100%, rgb(0 44 2) 100%), url(https://www.pnas.org/content/118/32/e2112863118/F1.large.jpg) no-repeat;
             background-size: cover;">
             <div class="container">
                 <div class="sec-title2 text-center mb-30">
                     <p class="title white-color" style="max-width:100%;">Would You Like to know more on how {{env('SITENAME')}} can
-                        help you meet your EC and EIA needs?</p>
-                    <button class="readon learn-more submit  mb-30  mt-30"><a href="contact-us.html"
-                            class="text-white">Contact Us</a> </button>
+                        help you meet your STP needs</p>
+                    <button class="readon learn-more submit  mb-30  mt-30">Contact Our Business Team</button>
                     <div class="text-white">With extensive expertise and strong team of well qualified and experienced
-                        technologists, {{env('SITENAME')}} is at the forefront for providing end to end solutions for EIA studies
-                        and Environmental Clearances as per latest statutory frameworks. {{env('SITENAME')}} is successfully
-                        operating for EC’s at a Pan India level and completed more that 200 such cases from diverse
-                        areas of its accreditation. </div>
+                        technologists, {{env('SITENAME')}} is at the forefront for providing end to end solutions for Sewage
+                        Treatment Plants. It has successfully designed, implemented, commissioned and operating sewage
+                        treatment plants of varying capacities for a number of residential societies, institutions,
+                        universities, hospitals and industries.</div>
                 </div>
             </div>
         </div>
@@ -98,72 +142,62 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo1.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo25.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table">
-                            <img src="{{asset('assets/images/partner/ec-logo2.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo26.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo3.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo27.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo4.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/client-logo13.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo5.jpg')}}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 md-mb-30">
-                        <div class="pricing-table">
-                            <img src="{{asset('assets/images/partner/ec-logo6.jpg')}}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/client-logo2.jpg')}}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo7.jpg')}}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 md-mb-30">
-                        <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo8.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo28.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table">
-                            <img src="{{asset('assets/images/partner/client-logo13.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo15.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/client-logo6.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo22.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo9.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo23.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo10.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo18.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table">
-                            <img src="{{asset('assets/images/partner/ec-logo11.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo19.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="pricing-table new-style2">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo20.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="pricing-table new-style2">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo21.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -212,7 +246,7 @@
                                     <p role="status" aria-live="polite" aria-atomic="true"></p>
                                     <ul></ul>
                                 </div>
-                                <form action="environmental-clearance.html#wpcf7-f65-o1" method="post"
+                                <form action="sewage-treatment-plant.html#wpcf7-f65-o1" method="post"
                                     class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate"
                                     data-status="init">
                                     <div style="display: none;">
@@ -269,7 +303,7 @@
                                                             aria-required="true" aria-invalid="false"
                                                             placeholder="Message" name="your_message"></textarea></span>
                                                 </p>
-                                            </div>  
+                                            </div>
                                         </div>
                                         <div class="btn-part">
                                             <div class="form-group mb-0">

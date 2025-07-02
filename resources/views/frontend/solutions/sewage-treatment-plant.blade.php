@@ -1,18 +1,16 @@
 @extends('frontend.layout.base')
 @section('content')
-    <!--Full width header End-->
-        <!-- header end-->
-        <!-- Breadcrumbs Start -->
+    <!-- Breadcrumbs Start -->
         <div class="rs-breadcrumbs img1"
-            style="background: url({{asset('assets/images/EPC-banner.jpg')}});">
+            style="background: url({{asset('assets/images/water-treat-bg.jpg')}});">
             <div class="breadcrumbs-inner text-center">
-                <h1 class="page-title">Environmental Clearance and EIA Studies</h1>
+                <h1 class="page-title">Sewage Treatment Plant</h1>
                 <ul>
                     <li title="Braintech - IT Solutions and Technology Startup HTML Template">
-                        <a class="active" href="environmental-clearance/index.html">Home</a>
+                        <a class="active" href="sewage-treatment-plant/index.html">Home</a>
                     </li>
-                    <li>Services /</li>
-                    <li>Environmental Clearance and EIA Studies</li>
+                    <li>Solutions /</li>
+                    <li>Sewage Treatment Plant</li>
                 </ul>
             </div>
         </div>
@@ -21,45 +19,56 @@
         <div class="rs-about gray-color pt-80 pb-80 md-pt-80 md-pb-80">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6 md-mb-30">
+                    {{-- <div class="col-lg-6 md-mb-30">
                         <div class="rs-animation-shape">
                             <div class="images">
-                                <img src="{{asset('assets/images/eic-img.jpg')}}" alt="">
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 pl-60 md-pl-15">
+                    </div> --}}
+                    <div class="col-lg-12">
                         <div class="contact-wrap">
                             <div class="sec-title mb-30">
-                                <div class="sub-text style-bg">Services</div>
-                                <h2 class="title pb-38">
-                                    Environmental Clearances and EIA Studies in India
+                                <h2 class="title pb-20">
+                                    Sewage Treatment Plant
                                 </h2>
-                                <div class="desc pb-35">
-                                    <strong>Environmental Clearance (EC)</strong> is a mandatory regulatory requirement for a diverse range of developmental projects in India, currently encompassing <strong>39 specified project types</strong>. The overarching objective of the EC process is to meticulously assess <strong>the potential environmental and social impacts</strong> of proposed projects and to integrate mitigation strategies to minimize any adverse effects.
+                                <div class="desc pb-20">
+                                    Sewage treatment plants (STPs) are vital facilities that play a crucial role in safeguarding public health and conserving precious water resources. With increasing global population, rapid urbanization, and rising pollution levels, STPs have become an absolute necessity.
                                 </div>
-                                <div class="desc pb-35">
-                                    The foundational framework for environmental clearances in India is laid out in the Environmental Impact Assessment (EIA) Notification, 2006, along with subsequent amendments and orders. This comprehensive legislation details the procedural steps involved, which typically include screening, scoping, and detailed evaluation of the project's environmental footprint.
+
+                                <h4 class="pb-20">
+                                    What is Sewage Treatment Plant ?
+                                </h4>
+                                <div class="desc pb-20">
+                                    An STP is a sophisticated facility that employs a combination of physical, chemical, and biological processes to treat wastewater from sewage. These processes act as multiple barriers, effectively removing various types of waste and contaminants from the water.
                                 </div>
-                            </div>
+                                <h4 class="pb-20 mb-4">
+                                    Why Are STPs Essential?
+                                </h4>
+                                <div class="desc">
+                                    There are several compelling reasons for the widespread adoption of STPs:
+                                    <ul>
+                                        <li><strong>Water Recycling and Reuse:</strong> STPs clean sewage, making the treated water suitable for various non-potable uses, such as agriculture, toilet flushing, and industrial processes. This significantly reduces the demand for fresh, potable water.</li>
+                                        <li><strong>Cost Reduction:</strong> By recycling water, STPs help lower the costs associated with procuring fresh water, leading to economic benefits for industries and municipalities.</li>
+                                        <li><strong>Environmental Compliance:</strong> STPs enable industries and other entities to meet stringent emission and discharge standards set by regulatory bodies like the CPCB (Central Pollution Control Board) and MoEF&CC (Ministry of Environment, Forest and Climate Change). This helps avoid penalties and ensures compliance.</li>
+                                        <li><strong>Environmental Protection and Sustainable Development:</strong> By preventing the discharge of untreated sewage into natural water bodies, STPs protect the environment from pollution and contribute significantly to sustainable development efforts.</li>
+                                    </ul>
+                                </div>                                
+                            </div>                            
                         </div>
-                    </div>
+                    </div>                    
                     <div class="col-lg-12">
-                        <div class="sec-title mb-30">
-                            <div class="desc pb-35">
-                                To navigate the EC process, project proponents are required to engage the services of a QCI-NABET (Quality Council of India - National Accreditation Board for Education and Training) certified consultant. These consultants are responsible for preparing a comprehensive Environmental Impact Assessment (EIA) report, which serves as the primary document for evaluating the project's environmental implications.
-                            </div>
-                            
-                            <div class="desc pb-20 fontbold">
-                                The EIA Notification, 2006, categorizes projects into two main groups based on their potential scale of impact and regulatory oversight:
-                            </div>
+                        <div class="sec-title mt-20">
+                            <div class="pb-20 ledtxt">Some of the major reasons for using STP’s are:</div>
                             <ul style="list-style: disc; padding: 0px 26px;">
-                                <li><strong>Category 'A' Projects:</strong> These projects, typically of larger scale and potentially significant environmental impact, necessitate clearance from the <strong>Ministry of Environment, Forest and Climate Change (MoEF&CC)</strong> at the central government level.</li>
-                                <li><strong>Category 'B' Projects:</strong> Projects falling under this category, generally with more localized impacts, are processed and cleared by the respective <strong>State Environmental Impact Assessment Authority (SEIAA)</strong>.</li>                                
+                                <li>To clean the sewage and recycle it for repeated or further usage</li>
+                                <li>To reduce the usage of fresh / potable water.</li>
+                                <li>To reduce the costs incurred on procurement of water</li>
+                                <li>To meet the Standards for emission or discharge of environmental pollutants from
+                                    various Industries set by the Government and avoid compliance related and
+                                    environment compensation related penalties.</li>
+                                <li>To safeguard environment against pollution and contribute in sustainable
+                                    development. </li>
                             </ul>
-                            <div class="desc pb-35">
-                                This tiered system ensures that environmental considerations are thoroughly integrated into the project planning and implementation phases, contributing to sustainable development practices across the country.
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -68,19 +77,97 @@
             </div>
         </div>
         <!-- About Section End -->
+        <div class="rs-team pt-80 pb-80 md-pt-80 md-pb-80 xs-pb-54"
+            style="background: linear-gradient(135deg, #04a2b3, #45dfac);">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="pb-20 ledtxt dark-txt">A typical sewage treatment plant works in three stages – primary,
+                        secondary and tertiary. </div>
+                    <div class="col-lg-6">
+                        <div class="sec-title mb-30">
+                            <div class="desc pb-30 dark-txt">
+                                <strong>Primary Stage</strong> <br>
+                                <p>This initial stage focuses on removing larger, easily settleable solids. It involves:</p>
+                                <ul style="list-style:disc;">
+                                    <li><strong>Screens and Grit Chambers</strong>: These remove larger and denser materials like rags, plastics, and sand.</li>
+                                    <li><strong>Primary Settling Tanks</strong>: Slower-to-settle materials are removed in these tanks through sedimentation. The water leaving this stage is largely free of particles.</li>
+                                </ul>
+                            </div>
+                            <div class="desc pb-30 dark-txt">
+                                <strong>Secondary Stage</strong> <br>
+                                <p>This is the biological treatment phase where microscopic organisms do the heavy lifting:</p>
+                                <ul style="list-style:disc;">
+                                    <li><strong>Biological Treatment</strong>: High-density populations of bacteria, often referred to as activated sludge, are introduced. These microorganisms biodegrade the carbon and nutrients present in the wastewater.</li>
+                                </ul>
+                            </div>
+
+                            <div class="desc pb-30 dark-txt">
+                                <strong>Tertiary  Stage</strong> <br>
+                                <p>The final stage further purifies the water, making it safe for discharge or reuse:</p>
+                                <ul style="list-style:disc;">
+                                    <li><strong>Filtration Techniques</strong>: Water from the secondary stage undergoes various filtration processes to remove any remaining fine particles.</li>
+                                    <li><strong>Disinfection</strong>: Depending on local practices and seasonal considerations, the final purified water is often disinfected using methods like UV light or chlorination.</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="desc dark-txt">
+                                The treated water from this final stage can then be used for non-drinking purposes like agriculture and flushing, or safely returned to rivers, lakes, and streams, contributing to water reclamation.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="top" src="{{asset('assets/images/stp_standards.png')}}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rs-team pt-80 pb-80 md-pt-80 md-pb-80 xs-pb-54" style="background: #fff;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12 pl-20 md-pl-15">
+                        <h2 class="title">Output Water Quality Standards</h2>
+                        <p>As per statutory guidelines issued by regulatory authorities such as the CPCB and MoEF&CC, the treated water discharged from an STP must comply with specific parameters to ensure environmental safety.</p>
+                    </div>
+                    <div class="col-lg-6 md-mb-30">
+                        <div class="rs-animation-shape">
+                            <div class="images">
+                                <img src="{{asset('assets/images/stp-filter.png')}}" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pl-20 md-pl-15">
+                        <div class="contact-wrap">
+                            <div class="sec-title mb-30">
+                                <h2 class="title pb-20">
+                                    Common Sewage Treatment Plant Technologies
+                                </h2>
+                                <p>Several advanced technologies are employed in modern STPs:</p>
+                                <div class="sec-title mb-20">
+                                    <ul style="list-style: disc; padding: 0px 26px;">
+                                        <li><strong>Activated Sludge Process (ASP)</strong>: A widely used conventional biological treatment process.</li>
+                                        <li><strong>Sequential Batch Reactor (SBR)</strong>: An activated sludge process that operates in a batch mode, offering flexibility and efficient nutrient removal.</li>
+                                        <li><strong>Membrane Bioreactor (MBR)</strong>: Combines biological treatment with membrane filtration, resulting in high-quality effluent.</li>
+                                        <li><strong>Moving Bed Biofilm Reactor (MBBR)</strong>: Utilizes plastic carriers with attached growth biofilms for efficient organic and nutrient removal.</li>                                                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="rs-contact-wrap bg5 pt-80 pb-80 md-pt-80 pb-80" style="    background: linear-gradient(rgb(0 24 24 / 84%) 100%, rgb(0 44 2) 100%), url(https://www.pnas.org/content/118/32/e2112863118/F1.large.jpg) no-repeat;
             background-size: cover;">
             <div class="container">
                 <div class="sec-title2 text-center mb-30">
                     <p class="title white-color" style="max-width:100%;">Would You Like to know more on how {{env('SITENAME')}} can
-                        help you meet your EC and EIA needs?</p>
-                    <button class="readon learn-more submit  mb-30  mt-30"><a href="contact-us.html"
-                            class="text-white">Contact Us</a> </button>
+                        help you meet your STP needs</p>
+                    <button class="readon learn-more submit  mb-30  mt-30">Contact Our Business Team</button>
                     <div class="text-white">With extensive expertise and strong team of well qualified and experienced
-                        technologists, {{env('SITENAME')}} is at the forefront for providing end to end solutions for EIA studies
-                        and Environmental Clearances as per latest statutory frameworks. {{env('SITENAME')}} is successfully
-                        operating for EC’s at a Pan India level and completed more that 200 such cases from diverse
-                        areas of its accreditation. </div>
+                        technologists, {{env('SITENAME')}} is at the forefront for providing end to end solutions for Sewage
+                        Treatment Plants. It has successfully designed, implemented, commissioned and operating sewage
+                        treatment plants of varying capacities for a number of residential societies, institutions,
+                        universities, hospitals and industries.</div>
                 </div>
             </div>
         </div>
@@ -98,72 +185,62 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo1.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo25.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table">
-                            <img src="{{asset('assets/images/partner/ec-logo2.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo26.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo3.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo27.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo4.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/client-logo13.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo5.jpg')}}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 md-mb-30">
-                        <div class="pricing-table">
-                            <img src="{{asset('assets/images/partner/ec-logo6.jpg')}}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/client-logo2.jpg')}}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo7.jpg')}}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 md-mb-30">
-                        <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo8.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo28.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table">
-                            <img src="{{asset('assets/images/partner/client-logo13.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo15.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/client-logo6.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo22.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo9.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo23.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo10.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo18.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table">
-                            <img src="{{asset('assets/images/partner/ec-logo11.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo19.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="pricing-table new-style2">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo20.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="pricing-table new-style2">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo21.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -212,7 +289,7 @@
                                     <p role="status" aria-live="polite" aria-atomic="true"></p>
                                     <ul></ul>
                                 </div>
-                                <form action="environmental-clearance.html#wpcf7-f65-o1" method="post"
+                                <form action="sewage-treatment-plant.html#wpcf7-f65-o1" method="post"
                                     class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate"
                                     data-status="init">
                                     <div style="display: none;">
@@ -269,7 +346,7 @@
                                                             aria-required="true" aria-invalid="false"
                                                             placeholder="Message" name="your_message"></textarea></span>
                                                 </p>
-                                            </div>  
+                                            </div>
                                         </div>
                                         <div class="btn-part">
                                             <div class="form-group mb-0">

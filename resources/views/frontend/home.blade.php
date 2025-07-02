@@ -95,7 +95,7 @@
                     <div class="sec-title mb-30 z-index-1">
                         <div class="sub-text">About Us</div>
                         <h2 class=" title title3 pb-30">
-                            Welcome to - Aplinka
+                            Welcome to - {{env('SITENAME')}}
                         </h2>
                         <div class="desc pb-30 text-dark" style="font-weight:600;">
                             We offer a full spectrum of services, solutions and products for all your environmental
@@ -391,7 +391,7 @@
         <div class="container pt-relative">
             <div class="sec-title">
                 <h2 class="title wow fadeInDown pb-20 ">Industries</h2>
-                <div class="desc pb-30">Aplinka has Accreditation from Quality Council Of India (QCI) under the
+                <div class="desc pb-30">{{env('SITENAME')}} has Accreditation from Quality Council Of India (QCI) under the
                     National Accreditation Board for Education and Training (NABET) Scheme in TEN Sectors:</div>
             </div>
             <div class="row align-items-center">
@@ -775,7 +775,7 @@
                         <div class="author-desc">
                             <div class="desc"><img class="quote"
                                     src="wp-content/themes/aplinkatheme/assets/images/testimonial/main-home/quote-white.png"
-                                    alt="">We are highly satisfied with Aplinka in the role of our environmental
+                                    alt="">We are highly satisfied with {{env('SITENAME')}} in the role of our environmental
                                 consultant. We have been working with them for the last SEVEN years on several
                                 diverse environmental regulatory and non-regulatory needs and they have excelled
                                 each and every time and helped us achieve all our needs.</div>
@@ -792,7 +792,7 @@
                         <div class="author-desc">
                             <div class="desc"><img class="quote"
                                     src="wp-content/themes/aplinkatheme/assets/images/testimonial/main-home/quote-white.png"
-                                    alt="">The services being provided by Aplinka for their advisory services and
+                                    alt="">The services being provided by {{env('SITENAME')}} for their advisory services and
                                 other environment related matters coupled with timely guidance is highly
                                 commendable.</div>
                             <div class="author-img">

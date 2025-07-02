@@ -11,3 +11,4 @@ Route::get('/', function () {
 
 Route::get('/contact-us', [FrontendController::class, 'contactus'])->name('contact-us');
 Route::get('/service/{slug}', [FrontendController::class, 'services'])->name('service');
+Route::get('/solution/{slug}', [FrontendController::class, 'solutions'])->name('solutions');

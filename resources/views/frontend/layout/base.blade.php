@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <!-- meta tag -->
-    <title>Aplinka - Heavy Industries, Building and Construction, Mining, Highways and Distilleries </title>
+    <title>{{env('SITENAME')}} - Heavy Industries, Building and Construction, Mining, Highways and Distilleries </title>
     <meta name="description" content="">
     <!-- responsive tag -->
     <meta http-equiv="x-ua-compatible" content="ie=edge">

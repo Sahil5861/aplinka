@@ -1,18 +1,16 @@
 @extends('frontend.layout.base')
 @section('content')
-    <!--Full width header End-->
-        <!-- header end-->
-        <!-- Breadcrumbs Start -->
+    <!-- Breadcrumbs Start -->
         <div class="rs-breadcrumbs img1"
-            style="background: url({{asset('assets/images/EPC-banner.jpg')}});">
+            style="background: url({{asset('assets/images/effluent-treatment-plant.jpg')}});">
             <div class="breadcrumbs-inner text-center">
-                <h1 class="page-title">Environmental Clearance and EIA Studies</h1>
+                <h1 class="page-title">Water Management</h1>
                 <ul>
                     <li title="Braintech - IT Solutions and Technology Startup HTML Template">
-                        <a class="active" href="environmental-clearance/index.html">Home</a>
+                        <a class="active" href="sewage-treatment-plant/index.html">Home</a>
                     </li>
-                    <li>Services /</li>
-                    <li>Environmental Clearance and EIA Studies</li>
+                    <li>Solutions /</li>
+                    <li>Water Management</li>
                 </ul>
             </div>
         </div>
@@ -21,66 +19,75 @@
         <div class="rs-about gray-color pt-80 pb-80 md-pt-80 md-pb-80">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6 md-mb-30">
+                    {{-- <div class="col-lg-6 md-mb-30">
                         <div class="rs-animation-shape">
                             <div class="images">
-                                <img src="{{asset('assets/images/eic-img.jpg')}}" alt="">
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 pl-60 md-pl-15">
+                    </div> --}}
+                    <div class="col-lg-12">
                         <div class="contact-wrap">
                             <div class="sec-title mb-30">
-                                <div class="sub-text style-bg">Services</div>
-                                <h2 class="title pb-38">
-                                    Environmental Clearances and EIA Studies in India
+                                <h2 class="title pb-20">
+                                    Water Management: Ensuring Responsible Resource Use
                                 </h2>
-                                <div class="desc pb-35">
-                                    <strong>Environmental Clearance (EC)</strong> is a mandatory regulatory requirement for a diverse range of developmental projects in India, currently encompassing <strong>39 specified project types</strong>. The overarching objective of the EC process is to meticulously assess <strong>the potential environmental and social impacts</strong> of proposed projects and to integrate mitigation strategies to minimize any adverse effects.
+                                <div class="desc pb-20">
+                                    Effective water management is critical for sustainability, resource conservation, and regulatory compliance. With increasing demands on water resources, strict guidelines are in place to monitor and control water usage, particularly for industrial and commercial entities.
                                 </div>
-                                <div class="desc pb-35">
-                                    The foundational framework for environmental clearances in India is laid out in the Environmental Impact Assessment (EIA) Notification, 2006, along with subsequent amendments and orders. This comprehensive legislation details the procedural steps involved, which typically include screening, scoping, and detailed evaluation of the project's environmental footprint.
+
+                                <h4 class="pb-20">
+                                    Mandatory Flow Monitoring for Compliance
+                                </h4>
+                                <div class="desc pb-20">
+                                    Various state and central statutory bodies mandate precise measurement of water flow at key points within facilities. This is essential for accurate record-keeping and robust compliance reporting. Key monitoring points include:
+                                    <ul style="list-style: disc;">
+                                        <li><strong>Inputs and Outputs of Treatment Plants:</strong> Measuring flow into and out of Sewage Treatment Plants (STPs) and Effluent Treatment Plants (ETPs).</li>
+                                        <li><strong>Fresh and Groundwater Consumption:</strong> Tracking the intake of fresh water and the extraction of groundwater.</li>
+                                        <li><strong>Treated Water Utilization:</strong> Monitoring the use of treated water for non-potable purposes such as gardening, flushing, and other internal processes.</li>
+                                    </ul>
+                                    <p>For all these measurements, electromagnetic flowmeters are the stipulated technology.</p>
                                 </div>
-                            </div>
+                                <h4 class="pb-20 mb-4">
+                                    Advanced Monitoring for Groundwater Extraction
+                                </h4>
+                                <div class="desc">
+                                    For units extracting groundwater, additional requirements apply, especially for significant volumes:
+                                    <ul style="list-style: disc;">
+                                        <li><strong>Telemetry-Enabled Flowmeters:</strong> If groundwater extraction exceeds 10 KLD (kilo liters per day), all flowmeters used for this purpose must be telemetry-enabled. This allows for continuous, real-time monitoring and recording of water quantity, with detailed data automatically shared with relevant government departments.</li>
+                                        <li><strong>Piezometer Installation:</strong> Beyond the 10 KLD threshold, units are also required to install a piezometer in a separate pit. This device continuously monitors and records the groundwater level of the aquifer from which water is being drawn, with data also being shared with concerned departments. This provides crucial insights into the impact of extraction on local water tables.</li>
+                                    </ul>
+                                </div>    
+                                <h4 class="pb-20 mb-4">The Imperative of Water Audits</h4>                            
+                                <p>To promote efficient groundwater utilization and management, the Central Pollution Control Board (CPCB) introduced mandatory <strong>water audit guidelines in September 2020</strong>.</p>
+                                <ul style="list-style: disc;">
+                                    <li>Annual Water Audit Reports: If a unit's groundwater extraction limit exceeds 100 KLD, it is mandatory to undertake an annual water audit. These audits must be conducted by certified auditors from reputable organizations such as the Confederation of Indian Industries (CII), Federation of Indian Chambers of Commerce and Industry (FICCI), or the National Productivity Council (NPC). The audit report must accompany the unit's application for groundwater abstraction.</li>
+                                    <li>Groundwater Reduction Targets: A significant directive from these guidelines is the requirement for industries exceeding the 100 KLD limit to commit to reducing their groundwater extraction by at least 20% over the next three years. This emphasizes a move towards greater water efficiency and sustainability.</li>
+                                </ul>
+
+                                <h4 class="pb-20 mb-4">Consequences of Non-Compliance</h4>                            
+                                <p>Failing to comply with any of these stipulated requirements can lead to serious repercussions. Non-compliance may result in the issuance of show cause notices and the levying of penalties on the violating units, highlighting the regulatory bodies' commitment to enforcing responsible water management practices.</p>                                
+                            </div>                            
                         </div>
-                    </div>
-                    <div class="col-lg-12">
-                        <div class="sec-title mb-30">
-                            <div class="desc pb-35">
-                                To navigate the EC process, project proponents are required to engage the services of a QCI-NABET (Quality Council of India - National Accreditation Board for Education and Training) certified consultant. These consultants are responsible for preparing a comprehensive Environmental Impact Assessment (EIA) report, which serves as the primary document for evaluating the project's environmental implications.
-                            </div>
-                            
-                            <div class="desc pb-20 fontbold">
-                                The EIA Notification, 2006, categorizes projects into two main groups based on their potential scale of impact and regulatory oversight:
-                            </div>
-                            <ul style="list-style: disc; padding: 0px 26px;">
-                                <li><strong>Category 'A' Projects:</strong> These projects, typically of larger scale and potentially significant environmental impact, necessitate clearance from the <strong>Ministry of Environment, Forest and Climate Change (MoEF&CC)</strong> at the central government level.</li>
-                                <li><strong>Category 'B' Projects:</strong> Projects falling under this category, generally with more localized impacts, are processed and cleared by the respective <strong>State Environmental Impact Assessment Authority (SEIAA)</strong>.</li>                                
-                            </ul>
-                            <div class="desc pb-35">
-                                This tiered system ensures that environmental considerations are thoroughly integrated into the project planning and implementation phases, contributing to sustainable development practices across the country.
-                            </div>
-                        </div>
+                    </div> 
+                    
+                    <div class="col-lg-6">
+                        <img class="top" src="{{asset('assets/images/water-manage.png')}}" alt="">
                     </div>
                 </div>
                 <div class="shape-image">
                 </div>
             </div>
         </div>
-        <!-- About Section End -->
-        <div class="rs-contact-wrap bg5 pt-80 pb-80 md-pt-80 pb-80" style="    background: linear-gradient(rgb(0 24 24 / 84%) 100%, rgb(0 44 2) 100%), url(https://www.pnas.org/content/118/32/e2112863118/F1.large.jpg) no-repeat;
+        <!-- About Section End -->        
+        
+        <div class="rs-contact-wrap bg5 pt-80 pb-80 md-pt-80 pb-80" style="background: linear-gradient(rgb(0 24 24 / 84%) 100%, rgb(0 44 2) 100%), url(https://www.pnas.org/content/118/32/e2112863118/F1.large.jpg) no-repeat;
             background-size: cover;">
             <div class="container">
                 <div class="sec-title2 text-center mb-30">
-                    <p class="title white-color" style="max-width:100%;">Would You Like to know more on how {{env('SITENAME')}} can
-                        help you meet your EC and EIA needs?</p>
-                    <button class="readon learn-more submit  mb-30  mt-30"><a href="contact-us.html"
-                            class="text-white">Contact Us</a> </button>
-                    <div class="text-white">With extensive expertise and strong team of well qualified and experienced
-                        technologists, {{env('SITENAME')}} is at the forefront for providing end to end solutions for EIA studies
-                        and Environmental Clearances as per latest statutory frameworks. {{env('SITENAME')}} is successfully
-                        operating for EC’s at a Pan India level and completed more that 200 such cases from diverse
-                        areas of its accreditation. </div>
+                    <p class="title white-color" style="max-width:100%;">Would You Like to know more on how {{env('SITENAME')}} can help you meet your Water Measurement and Control related needs?</p>
+                    <button class="readon learn-more submit  mb-30  mt-30">Contact Our Business Team</button>
+                    <div class="text-white">Contact Us
+                        With an in-depth knowledge about various regulatory compliances, knowhow of the environmental products and solutions related market in India and partnerships with manufacturers of best of the class products, {{env('SITENAME')}} helps you choose and integrate the most optimal products for your water measurement, monitoring and compliance needs.</div>
                 </div>
             </div>
         </div>
@@ -98,72 +105,62 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo1.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo25.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table">
-                            <img src="{{asset('assets/images/partner/ec-logo2.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo26.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo3.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo27.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo4.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/client-logo13.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo5.jpg')}}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 md-mb-30">
-                        <div class="pricing-table">
-                            <img src="{{asset('assets/images/partner/ec-logo6.jpg')}}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/client-logo2.jpg')}}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo7.jpg')}}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 md-mb-30">
-                        <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo8.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo28.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table">
-                            <img src="{{asset('assets/images/partner/client-logo13.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo15.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/client-logo6.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo22.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo9.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo23.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo10.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo18.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table">
-                            <img src="{{asset('assets/images/partner/ec-logo11.jpg')}}" alt="">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo19.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="pricing-table new-style2">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo20.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="pricing-table new-style2">
+                            <img src="wp-content/themes/aplinkatheme/assets/images/partner/ec-logo21.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -212,7 +209,7 @@
                                     <p role="status" aria-live="polite" aria-atomic="true"></p>
                                     <ul></ul>
                                 </div>
-                                <form action="environmental-clearance.html#wpcf7-f65-o1" method="post"
+                                <form action="sewage-treatment-plant.html#wpcf7-f65-o1" method="post"
                                     class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate"
                                     data-status="init">
                                     <div style="display: none;">
@@ -269,7 +266,7 @@
                                                             aria-required="true" aria-invalid="false"
                                                             placeholder="Message" name="your_message"></textarea></span>
                                                 </p>
-                                            </div>  
+                                            </div>
                                         </div>
                                         <div class="btn-part">
                                             <div class="form-group mb-0">

@@ -7,7 +7,7 @@
                 <div class="row rs-vertical-middle">
                     <div class="col-lg-3">
                         <div class="logo-part">
-                            <a href="index.html"><img src="{{asset('assets/images/logo-dark.png')}}" alt=""></a>
+                            <a href="index.html"><img src="{{asset('assets/images/logo_new.png')}}" alt="" width="60px"></a>
                         </div>
                     </div>
                     <div class="col-lg-9 text-right">
@@ -44,7 +44,7 @@
             <div class="container">
                 <div class="logo-area">
                     <a href="#">
-                        <img class="sticky-logo" src="{{asset('assets/images/logo-dark.png')}}" alt="logo">
+                        <img class="sticky-logo" src="{{asset('assets/images/logo_new.png')}}" alt="logo">
                     </a>
                 </div>
                 <div class="rs-menu-area">
@@ -72,13 +72,13 @@
                                 </li>
                                 <li id="menu-item-55" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nav-item menu-item-55 nav-item"><a href="#">Solutions</a>
                                 <ul class="menu-item-has-children">
-                                    <li id="menu-item-51" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-51 nav-item"><a href="sewage-treatment-plant.html">Sewage Treatment Plant</a></li>
-                                    <li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-41 nav-item"><a href="effluent-treatment-plant.html">Effluent Treatment Plant</a></li>
-                                    <li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-53 nav-item"><a href="water-management.html">Water Management</a></li>
-                                    <li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-52 nav-item"><a href="solid-waste-management.html">Solid Waste Management</a></li>
-                                    <li id="menu-item-49" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-49 nav-item"><a href="rain-water-harvesting.html">Rain Water Harvesting</a></li>
-                                    <li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-38 nav-item"><a href="air-pollution-control.html">Air Pollution Control</a></li>
-                                    <li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-46 nav-item"><a href="online-monitoring.html">Online Monitoring</a></li>
+                                    <li id="menu-item-51" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-51 nav-item"><a href="{{route('solutions', 'sewage-treatment-plant')}}">Sewage Treatment Plant</a></li>
+                                    <li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-41 nav-item"><a href="{{route('solutions', 'effluent-treatment-plant')}}">Effluent Treatment Plant</a></li>
+                                    <li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-53 nav-item"><a href="{{route('solutions', 'water-management')}}">Water Management</a></li>
+                                    <li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-52 nav-item"><a href="{{route('solutions', 'sewage-treatment-plant')}}">Solid Waste Management</a></li>
+                                    <li id="menu-item-49" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-49 nav-item"><a href="{{route('solutions', 'sewage-treatment-plant')}}">Rain Water Harvesting</a></li>
+                                    <li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-38 nav-item"><a href="{{route('solutions', 'sewage-treatment-plant')}}">Air Pollution Control</a></li>
+                                    <li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-46 nav-item"><a href="{{route('solutions', 'sewage-treatment-plant')}}">Online Monitoring</a></li>
                                 </ul>
                                 </li>
                                 <li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-45 nav-item"><a href="#">Industries</a></li>

@@ -62,15 +62,16 @@
             <div class="container">
                 <div class="sec-title2 text-center mb-30">
                     <p class="title white-color" style="max-width:100%;">
-                        Would You Like to know more on how Aplinka can help you meet your CGWA needs?</p>
+                        Would You Like to know more on how {{env('SITENAME')}} can help you meet your CGWA needs?</p>
                     <button class="readon learn-more submit  mb-30  mt-30"><a href="contact-us.html"
                             class="text-white">Contact Us</a> </button>
-                    <div class="text-white">With extensive expertise and strong team of well qualified and experienced technologists, Aplinka is at the forefront for providing end to end solutions for Central Ground Water Clearance including hydro geological studies needs as per bylaws, exploring on campus and off campus options for compensating for the ground water used. Aplinka has been providing CGWA services at a Pan India level and completed more than 1000 such cases across several states in India.</div>
+                    <div class="text-white">With extensive expertise and strong team of well qualified and experienced technologists, {{env('SITENAME')}} is at the forefront for providing end to end solutions for Central Ground Water Clearance including hydro geological studies needs as per bylaws, exploring on campus and off campus options for compensating for the ground water used. {{env('SITENAME')}} has been providing CGWA services at a Pan India level and completed more than 1000 such cases across several states in India.</div>
                 </div>
             </div>
         </div>
+        <hr>
         <!-- Pricing section start -->
-        <div class="rs-pricing style2 gray-color pt-80 pb-80 md-pt-80 md-pb-80">
+        {{-- <div class="rs-pricing style2 gray-color pt-80 pb-80 md-pt-80 md-pb-80">
             <div class="container">
                 <div class="sec-title2 text-center mb-45">
                     <h2 class="title title2">
@@ -142,7 +143,7 @@
                     </div>                    
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- Pricing section end -->
         <!-- Counter Section Start -->
         <div class="rs-contact-wrap bg5 pt-120 pb-390 md-pt-80" style="    background: linear-gradient(rgb(0 24 24 / 84%) 100%, rgb(0 44 2) 100%), url(https://www.pnas.org/content/118/32/e2112863118/F1.large.jpg) no-repeat;
