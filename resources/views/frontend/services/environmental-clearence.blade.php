@@ -72,13 +72,22 @@
             background-size: cover;">
             <div class="container">
                 <div class="sec-title2 text-center mb-30">
+<<<<<<< HEAD
                     <p class="title white-color" style="max-width:100%;">Would You Like to know more on how {{env('SITENAME')}} can
+=======
+                    <p class="title white-color" style="max-width:100%;">Would You Like to know more on how {{env('SITENAME')}}  can
+>>>>>>> f7308565bf84dc0845d6beda4801509227202554
                         help you meet your EC and EIA needs?</p>
                     <button class="readon learn-more submit  mb-30  mt-30"><a href="contact-us.html"
                             class="text-white">Contact Us</a> </button>
                     <div class="text-white">With extensive expertise and strong team of well qualified and experienced
+<<<<<<< HEAD
                         technologists, {{env('SITENAME')}} is at the forefront for providing end to end solutions for EIA studies
                         and Environmental Clearances as per latest statutory frameworks. {{env('SITENAME')}} is successfully
+=======
+                        technologists, {{env('SITENAME')}}  is at the forefront for providing end to end solutions for EIA studies
+                        and Environmental Clearances as per latest statutory frameworks. {{env('SITENAME')}}  is successfully
+>>>>>>> f7308565bf84dc0845d6beda4801509227202554
                         operating for EC’s at a Pan India level and completed more that 200 such cases from diverse
                         areas of its accreditation. </div>
                 </div>

@@ -6,7 +6,7 @@
                 <h1 class="page-title">Contact</h1>
                 <ul>
                     <li title="Braintech - IT Solutions and Technology Startup HTML Template">
-                        <a class="active" href="https://aplinka.in/contact-us/index.html">Home</a>
+                        <a class="active" href="https://Aplinka.in/contact-us/index.html">Home</a>
                     </li>
                     <li>Contact</li>
                 </ul>
@@ -40,10 +40,10 @@
                                 <div class="address-text">
                                     <span class="label">Email:</span>
                                     <span class="label">General Enquiries:</span>
-                                    <a href="https://aplinka.in/contact-us/#">info@aplinka.in, darpan@aplinka.in</a>
+                                    <a href="https://Aplinka.in/contact-us/#">info@Aplinka.in, darpan@Aplinka.in</a>
                                     <span class="label">For New Enquiries:</span>
-                                    <a href="https://aplinka.in/contact-us/#">Dudeja.harish@aplinka.in,
-                                        bd@aplinka.in</a>
+                                    <a href="https://Aplinka.in/contact-us/#">Dudeja.harish@Aplinka.in,
+                                        bd@Aplinka.in</a>
                                 </div>
                             </div>
                             <div class="address-box mb-25">
@@ -95,7 +95,7 @@
                                     <p role="status" aria-live="polite" aria-atomic="true"></p>
                                     <ul></ul>
                                 </div>
-                                <form action="https://aplinka.in/contact-us/#wpcf7-f66-o1" method="post"
+                                <form action="https://Aplinka.in/contact-us/#wpcf7-f66-o1" method="post"
                                     class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate"
                                     data-status="init">
                                     <div style="display: none;">

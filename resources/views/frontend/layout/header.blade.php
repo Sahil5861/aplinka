@@ -64,10 +64,10 @@
                                     <li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-42 nav-item"><a href="{{route('service','environmental-clearence')}}">Environmental Clearance</a></li>
                                     <li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-44 nav-item"><a href="{{route('service','ground-water-clearence')}}">Ground Water Clearances</a></li>
                                     <li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-39 nav-item"><a href="{{route('service','consent-to-establish-and-operate')}}">Consent to Establish and Operate</a></li>
-                                    <li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-48 nav-item"><a href="periodic-compliance-audits.html">Periodic Compliance Audits</a></li>
-                                    <li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-43 nav-item"><a href="green-building-certification.html">Green Building Certification</a></li>
-                                    <li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-40 nav-item"><a href="design-services.html">Design Services</a></li>
-                                    <li id="menu-item-47" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-47 nav-item"><a href="operations-and-maintenance.html">Operations and Maintenance</a></li>
+                                    <li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-48 nav-item"><a href="{{route('service','periodic-compliance-audits')}}">Periodic Compliance Audits</a></li>
+                                    <li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-43 nav-item"><a href="{{route('service','green-building-cetification')}}">Green Building Certification</a></li>
+                                    <li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-40 nav-item"><a href="{{route('service','design-services')}}">Design Services</a></li>
+                                    <li id="menu-item-47" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-47 nav-item"><a href="{{route('service','operations-and-maintenance')}}">Operations and Maintenance</a></li>
                                 </ul>
                                 </li>
                                 <li id="menu-item-55" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nav-item menu-item-55 nav-item"><a href="#">Solutions</a>

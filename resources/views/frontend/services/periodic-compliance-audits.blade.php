@@ -4,15 +4,15 @@
         <!-- header end-->
         <!-- Breadcrumbs Start -->
         <div class="rs-breadcrumbs img1"
-            style="background: url({{asset('assets/images/Consent-bg.jpg')}});">
+            style="background: url({{asset('assets/images/EPC-banner.jpg')}});">
             <div class="breadcrumbs-inner text-center">
-                <h1 class="page-title">Consent to Establish and Operate</h1>
+                <h1 class="page-title">Periodic Environmental Compliance Audits: A Strategic Approach</h1>
                 <ul>
                     <li title="Braintech - IT Solutions and Technology Startup HTML Template">
                         <a class="active" href="environmental-clearance/index.html">Home</a>
                     </li>
                     <li>Services /</li>
-                    <li>Consent to Establish and Operate</li>
+                    <li>Periodic Environmental Compliance Audits</li>
                 </ul>
             </div>
         </div>
@@ -24,7 +24,7 @@
                     <div class="col-lg-6 md-mb-30">
                         <div class="rs-animation-shape">
                             <div class="images">
-                                <img src="{{asset('assets/images/consent.png')}}" alt="">
+                                <img src="{{asset('assets/images/pca-img.jpg')}}" alt="">
                             </div>
                         </div>
                     </div>
@@ -33,78 +33,39 @@
                             <div class="sec-title mb-30">
                                 <div class="sub-text style-bg">Services</div>
                                 <h2 class="title pb-38">
-                                    Consent to Establish and Operate: A Regulatory Requirement
+                                    Periodic Environmental Compliance Audits: A Strategic Approach
                                 </h2>
                                 <div class="desc pb-35">
-                                    In India, industries and operations with potential environmental impacts are mandated to obtain specific consents under the <strong>Water (Prevention and Control of Pollution) Act, 1974</strong> and the <strong>Air (Prevention and Control of Pollution) Act, 1981</strong>. These legislations collectively aim to prevent and control water and air pollution.
+                                    <strong>Periodic Environmental Compliance Audits</strong> are essential for organizations aiming to consistently meet diverse environmental regulatory standards and operate in a truly sustainable manner. These audits represent a planned, methodical, and regular evaluation designed to ensure ongoing adherence to environmental regulations and foster responsible resource management. While inherently <strong>tailored to the specific regulatory permissions</strong> granted to an organization—such as those related to water, air, waste, and groundwater abstraction—these audits also reflect a broader commitment to environmental stewardship and natural resource conservation.
                                 </div>
-                                <div class="desc pb-35">                                    
-                                    Any industrial or operational unit, including expansions or additions to existing ones, that is likely to <strong>discharge sewage or trade effluent</strong> into water bodies or the environment, or <strong>emit any air pollutants</strong> into the atmosphere, must secure "Consent to Establish" and "Consent to Operate" from the respective <strong>State Pollution Control Board (SPCB)</strong>.
+                                <div class="desc pb-35">
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-12">
-                        <div class="desc pb-35 text-sm text-primary">Consent to Establish (CTE)</div>                   
-                        <p class="desc pb-35">
-                            The <strong>Consent to Establish (CTE)</strong> is a prerequisite for any new industrial or operational setup. It must be obtained <strong>before the commencement of any construction activities</strong> at the project site. This consent is generally a <strong>one-time activity</strong>, signifying the SPCB's approval of the proposed project's design and environmental safeguards at the foundational stage.
-                        </p>
-                        <div class="desc pb-35 text-sm text-primary">Consent to Operate (CTO)</div>                   
-                        <p class="desc pb-35">                            
-                            Upon successful completion of construction work, adhering to all the norms and conditions stipulated in the CTE, the company is required to <strong>inform the SPCB</strong> and apply for <strong>Consent to Operate (CTO)</strong>. The SPCB then conducts an official inspection to verify compliance. A CTO is granted for a defined period, contingent upon a successful inspection and the company's adherence to all conditions outlined in the CTE.
-                        </p>
-
-                        <p class="desc pb-35">
-                            Once the CTO is granted, the company can commence its operations. It is then legally bound to abide by all the operating conditions specified in the CTO. This includes performing regular environmental audits as per the CTO conditions and submitting compliance reports to the SPCB on a consistent basis. This ongoing reporting mechanism ensures continuous adherence to environmental regulations and helps avoid penalties. The CTO also requires periodic renewal before its expiration date to ensure continued compliance
-                        </p>
-                        <div class="desc pb-35">
-                            The overall process for obtaining CTE, CTO, conducting compliance audits, and renewals generally follows a similar framework. However, minor variations may exist depending on the specific state where the company is located, its nature of operation, and its categorization based on pollution potential.
+                        <div class="sec-title mb-30">
+                            <div class="desc pb-35">
+                                {{-- To navigate the EC process, project proponents are required to engage the services of a QCI-NABET (Quality Council of India - National Accreditation Board for Education and Training) certified consultant. These consultants are responsible for preparing a comprehensive Environmental Impact Assessment (EIA) report, which serves as the primary document for evaluating the project's environmental implications. --}}
+                            </div>
+                            
+                            <div class="desc pb-20 fontbold">
+                                The execution of these comprehensive audits typically involves a structured and multi-faceted approach:
+                            </div>
+                            <ul style="list-style: disc; padding: 0px 26px;">
+                                <li><strong>Objective Definition:</strong> Collaborating closely with management to clearly define the specific goals and scope of the audit, ensuring alignment with both regulatory requirements and organizational sustainability objectives.</li>
+                                <li><strong>Holistic Regulatory Review:</strong> A thorough examination of all environment-related permits, clearances, and consents issued by various regulatory agencies (e.g., MoEF&CC, SPCBs, CGWA). This involves understanding the interdependencies and cumulative requirements across all permissions.</li>                                
+                                <li><strong>Documentation Scrutiny:</strong> Detailed review of all environmental records, reports, monitoring data, and operational logs to verify that documentation is being maintained accurately, completely, and in accordance with regulatory mandates.</li>                                
+                                <li><strong>On-Ground Verification by Experts:</strong> Conducting meticulous physical inspections of facilities, processes, and pollution control systems by <strong>Subject Matter Experts (SMEs)</strong>. This critical step assesses the actual operational conditions against documented procedures and regulatory limits.</li>                                
+                                <li><strong>Gap Analysis and Remediation: </strong> Identifying any discrepancies, non-conformities, or gaps between current practices and regulatory requirements. This includes providing actionable advice and practical recommendations for remediation and improvement, alongside suggesting best environmental practices.</li>                                
+                                <li><strong>Standardization and Optimization: </strong>Assisting organizations in standardizing their environmental management efforts through the establishment of well-defined recording procedures, standardized reporting formats, timely submission of data, regular internal inspections, and robust feedback mechanisms.</li>                                
+                                <li><strong>Technological and Methodological Suggestions:</strong> Proposing innovative and optimal technologies or methodologies that can lead to better environmental performance, greater efficiency in resource utilization, and enhanced compliance outcomes.</li>                                
+                                <li><strong>Regulatory Intelligence and Updates:</strong> Providing timely information and insights on the latest environmental norms, regulations, amendments, and orders issued by relevant governmental departments. This service also includes guidance on how to effectively achieve compliance with these evolving requirements.</li>                                
+                            </ul>
+                            <div class="desc pb-35">
+                                Organizations like {{env('SITENAME')}}  specialize in this domain, partnering with various institutions and large enterprises. Acting as an <strong>extended environmental wing</strong>, they provide critical subject matter expertise across a wide array of environmental services and audits.
+                            </div>
                         </div>
-                        <div class="desc pb-35 text-sm text-primary">Key Considerations for Applicants:</div>                                           
-                    </div>
-
-                    <div class="col-lg-12">
-                        <h3 class="title title-2">
-                            Factors to be considered while applying for CTE:
-                        </h3>
-                        <ul style="list-style: disc; padding: 0px 26px;">
-                            <li>Project type and scale</li>
-                            <li>Location and surrounding environment</li>
-                            <li>Raw materials and processes involved</li>
-                            <li>Expected wastewater discharge and air emissions</li>
-                            <li>Proposed pollution control measures (ETP, STP, APC equipment)</li>
-                            <li>Water balance and resource consumption</li>
-                            <li>Waste generation and disposal methods</li>
-                            <li>Compliance with environmental standards and regulations</li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-12">
-                        <h3 class="title title-2">
-                            Factors to be considered while applying for CTO:
-                        </h3>
-                        <ul style="list-style: disc; padding: 0px 26px;">
-                            <li>Completion of construction as per CTE conditions</li>
-                            <li>Installation and functionality of pollution control equipment</li>
-                            <li>Operational efficiency of environmental management systems</li>
-                            <li>Compliance with all specific conditions mentioned in the CTE</li>
-                            <li>Readiness to monitor and report environmental parameters</li>
-                            <li>Waste management procedures in place</li>                           
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-12">
-                        <h3 class="title title-2">
-                            Factors to be considered while applying for renewal of CTO:
-                        </h3>
-                        <ul style="list-style: disc; padding: 0px 26px;">
-                            <li>Track record of compliance with previous CTO conditions</li>
-                            <li>Results of past compliance audits and monitoring reports</li>
-                            <li>Any changes in process or production capacity</li>
-                            <li>Effectiveness of existing pollution control measures</li>
-                            <li>Adherence to new environmental norms or standards (if any)</li>
-                            <li>Payment of applicable fees</li>
-                        </ul>
                     </div>
                 </div>
                 <div class="shape-image">
@@ -112,22 +73,14 @@
             </div>
         </div>
         <!-- About Section End -->
-        <div class="rs-contact-wrap bg5 pt-80 pb-80 md-pt-80 pb-80" style="background: linear-gradient(rgb(0 24 24 / 84%) 100%, rgb(0 44 2) 100%), url(https://www.pnas.org/content/118/32/e2112863118/F1.large.jpg) no-repeat;
+        <div class="rs-contact-wrap bg5 pt-80 pb-80 md-pt-80 pb-80" style="    background: linear-gradient(rgb(0 24 24 / 84%) 100%, rgb(0 44 2) 100%), url(https://www.pnas.org/content/118/32/e2112863118/F1.large.jpg) no-repeat;
             background-size: cover;">
             <div class="container">
                 <div class="sec-title2 text-center mb-30">
-                    <p class="title white-color" style="max-width:100%;">
-<<<<<<< HEAD
-                        Would You Like to know more on how {{env('SITENAME')}} can help you meet your CGWA needs?</p>
+                    <p class="title white-color" style="max-width:100%;">Would you like to explore how {{env('SITENAME')}}  can further assist your organization in conducting robust periodic compliance audits and ensuring continuous adherence to the latest environmental regulations and statutory norms?</p>
                     <button class="readon learn-more submit  mb-30  mt-30"><a href="contact-us.html"
                             class="text-white">Contact Us</a> </button>
-                    <div class="text-white">With extensive expertise and strong team of well qualified and experienced technologists, {{env('SITENAME')}} is at the forefront for providing end to end solutions for Central Ground Water Clearance including hydro geological studies needs as per bylaws, exploring on campus and off campus options for compensating for the ground water used. {{env('SITENAME')}} has been providing CGWA services at a Pan India level and completed more than 1000 such cases across several states in India.</div>
-=======
-                        Would You Like to know more on how {{env('SITENAME')}}  can help you meet your CGWA needs?</p>
-                    <button class="readon learn-more submit  mb-30  mt-30"><a href="contact-us.html"
-                            class="text-white">Contact Us</a> </button>
-                    <div class="text-white">With extensive expertise and strong team of well qualified and experienced technologists, {{env('SITENAME')}}  is at the forefront for providing end to end solutions for Central Ground Water Clearance including hydro geological studies needs as per bylaws, exploring on campus and off campus options for compensating for the ground water used. {{env('SITENAME')}}  has been providing CGWA services at a Pan India level and completed more than 1000 such cases across several states in India.</div>
->>>>>>> f7308565bf84dc0845d6beda4801509227202554
+                    <div class="text-white">With extensive expertise and strong team of well qualified and experienced Subject Matter Experts, {{env('SITENAME')}}  is well equipped to help you holistically evaluate your organizations performance towards all your environment needs through periodic audits. The model has been successfully implemented for several large corporates, industries and institutions. </div>
                 </div>
             </div>
         </div>
@@ -145,64 +98,74 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo30.jpg')}}" alt="">
+                            <img src="{{asset('assets/images/partner/ec-logo1.jpg')}}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table">
-                            <img src="{{asset('assets/images/partner/client-logo22.jpg')}}" alt="">
+                            <img src="{{asset('assets/images/partner/ec-logo2.jpg')}}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/client-logo1.jpg')}}" alt="">
+                            <img src="{{asset('assets/images/partner/ec-logo3.jpg')}}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/client-logo17.jpg')}}" alt="">
+                            <img src="{{asset('assets/images/partner/ec-logo4.jpg')}}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/client-logo4.jpg')}}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 md-mb-30">
-                        <div class="pricing-table">
-                            <img src="{{asset('assets/images/partner/ec-logo31.jpg')}}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/ec-logo24.jpg')}}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/client-logo5.jpg')}}" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 md-mb-30">
-                        <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/client-logo9.jpg')}}" alt="">
+                            <img src="{{asset('assets/images/partner/ec-logo5.jpg')}}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 md-mb-30">
                         <div class="pricing-table">
-                            <img src="{{asset('assets/images/partner/client-logo7.jpg')}}" alt="">
+                            <img src="{{asset('assets/images/partner/ec-logo6.jpg')}}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/client-logo24.jpg')}}" alt="">
+                            <img src="{{asset('assets/images/partner/client-logo2.jpg')}}" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="pricing-table new-style2">
-                            <img src="{{asset('assets/images/partner/client-logo3.jpg')}}" alt="">
+                            <img src="{{asset('assets/images/partner/ec-logo7.jpg')}}" alt="">
                         </div>
-                    </div>                    
+                    </div>
+                    <div class="col-lg-3 md-mb-30">
+                        <div class="pricing-table new-style2">
+                            <img src="{{asset('assets/images/partner/ec-logo8.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 md-mb-30">
+                        <div class="pricing-table">
+                            <img src="{{asset('assets/images/partner/client-logo13.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="pricing-table new-style2">
+                            <img src="{{asset('assets/images/partner/client-logo6.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="pricing-table new-style2">
+                            <img src="{{asset('assets/images/partner/ec-logo9.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 md-mb-30">
+                        <div class="pricing-table new-style2">
+                            <img src="{{asset('assets/images/partner/ec-logo10.jpg')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 md-mb-30">
+                        <div class="pricing-table">
+                            <img src="{{asset('assets/images/partner/ec-logo11.jpg')}}" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div> --}}

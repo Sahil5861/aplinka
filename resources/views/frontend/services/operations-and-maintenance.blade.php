@@ -4,15 +4,15 @@
         <!-- header end-->
         <!-- Breadcrumbs Start -->
         <div class="rs-breadcrumbs img1"
-            style="background: url({{asset('assets/images/Consent-bg.jpg')}});">
+            style="background: url({{asset('assets/images/o-m-banner.jpg')}});">
             <div class="breadcrumbs-inner text-center">
-                <h1 class="page-title">Consent to Establish and Operate</h1>
+                <h1 class="page-title">Expert Operations and Maintenance (O&M) for Environmental Plants</h1>
                 <ul>
                     <li title="Braintech - IT Solutions and Technology Startup HTML Template">
                         <a class="active" href="environmental-clearance/index.html">Home</a>
                     </li>
                     <li>Services /</li>
-                    <li>Consent to Establish and Operate</li>
+                    <li>Operations and Maintenance</li>
                 </ul>
             </div>
         </div>
@@ -24,7 +24,7 @@
                     <div class="col-lg-6 md-mb-30">
                         <div class="rs-animation-shape">
                             <div class="images">
-                                <img src="{{asset('assets/images/consent.png')}}" alt="">
+                                <img src="{{asset('assets/images/opration-img.jpg')}}" alt="">
                             </div>
                         </div>
                     </div>
@@ -33,78 +33,45 @@
                             <div class="sec-title mb-30">
                                 <div class="sub-text style-bg">Services</div>
                                 <h2 class="title pb-38">
-                                    Consent to Establish and Operate: A Regulatory Requirement
+                                    Expert Operations and Maintenance (O&M) for Environmental Plants
                                 </h2>
                                 <div class="desc pb-35">
-                                    In India, industries and operations with potential environmental impacts are mandated to obtain specific consents under the <strong>Water (Prevention and Control of Pollution) Act, 1974</strong> and the <strong>Air (Prevention and Control of Pollution) Act, 1981</strong>. These legislations collectively aim to prevent and control water and air pollution.
+                                    Managing complex equipment and sophisticated treatment facilities is significantly streamlined with expert <strong>Operations and Maintenance (O&M)</strong> services. For critical environmental infrastructure like  <strong>Sewage Treatment Plants (STPs) and Effluent Treatment Plants (ETPs)</strong>. , professional O&M is not just beneficial, it's essential. It ensures these plants operate efficiently and effectively, consistently meeting stringent environmental regulations concerning the quality of treated output.
                                 </div>
                                 <div class="desc pb-35">                                    
-                                    Any industrial or operational unit, including expansions or additions to existing ones, that is likely to <strong>discharge sewage or trade effluent</strong> into water bodies or the environment, or <strong>emit any air pollutants</strong> into the atmosphere, must secure "Consent to Establish" and "Consent to Operate" from the respective <strong>State Pollution Control Board (SPCB)</strong>.
+                                    Leveraging extensive domain and technical expertise, {{env('SITENAME')}}  delivers integrated O&M services designed to optimize plant performance, enhance operational efficiencies, and minimize running costs. This is achieved through meticulous monitoring and the judicious use of process treatment consumables.
+                                </div>
+                                <div class="desc pb-35">
+                                    We understand that different organizations have varying needs, which is why we offer two flexible service models:
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-12">
-                        <div class="desc pb-35 text-sm text-primary">Consent to Establish (CTE)</div>                   
+                        <div class="desc pb-35 text-sm text-primary">1. Integrated Operations & Maintenance (IO&M)</div>                   
                         <p class="desc pb-35">
-                            The <strong>Consent to Establish (CTE)</strong> is a prerequisite for any new industrial or operational setup. It must be obtained <strong>before the commencement of any construction activities</strong> at the project site. This consent is generally a <strong>one-time activity</strong>, signifying the SPCB's approval of the proposed project's design and environmental safeguards at the foundational stage.
+                            This comprehensive service model provides a complete solution for plant management. With IO&M, {{env('SITENAME')}}  takes on the responsibility for supplying all necessary <strong> manpower resources, materials, and equipment </strong> . Our goal is to maximize plant efficiency, ensure meticulous <strong> record-keeping</strong>,conduct <strong>periodic expert visits</strong> for guidance, and implement <strong> preventive maintenance and ongoing upkeep </strong>throughout the plant's entire lifecycle. This model is ideal for clients seeking a hands-off approach to plant operations, guaranteeing continuous compliance and peak performance.
                         </p>
-                        <div class="desc pb-35 text-sm text-primary">Consent to Operate (CTO)</div>                   
+                        <div class="desc pb-35 text-sm text-primary">2. Annual Maintenance Contract (AMC)</div>                   
                         <p class="desc pb-35">                            
-                            Upon successful completion of construction work, adhering to all the norms and conditions stipulated in the CTE, the company is required to <strong>inform the SPCB</strong> and apply for <strong>Consent to Operate (CTO)</strong>. The SPCB then conducts an official inspection to verify compliance. A CTO is granted for a defined period, contingent upon a successful inspection and the company's adherence to all conditions outlined in the CTE.
+                            Our AMC model focuses on providing expert oversight and guidance. Under an AMC, {{env('SITENAME')}}  delivers scheduled monthly visits by experts who provide essential technical advice, troubleshooting, and operational recommendations. While we provide the expert guidance, the responsibility for other operational needs, such as supplying manpower, materials, and consumables, remains within your scope. This model is well-suited for organizations that prefer to manage their day-to-day operations but require specialized technical support and periodic professional insights.
                         </p>
 
                         <p class="desc pb-35">
-                            Once the CTO is granted, the company can commence its operations. It is then legally bound to abide by all the operating conditions specified in the CTO. This includes performing regular environmental audits as per the CTO conditions and submitting compliance reports to the SPCB on a consistent basis. This ongoing reporting mechanism ensures continuous adherence to environmental regulations and helps avoid penalties. The CTO also requires periodic renewal before its expiration date to ensure continued compliance
+                            Depending on your specific requirements, either of these models can be chosen, or we can explore customized alternate options to perfectly align with your exact operational and budgetary needs.
                         </p>
                         <div class="desc pb-35">
                             The overall process for obtaining CTE, CTO, conducting compliance audits, and renewals generally follows a similar framework. However, minor variations may exist depending on the specific state where the company is located, its nature of operation, and its categorization based on pollution potential.
                         </div>
-                        <div class="desc pb-35 text-sm text-primary">Key Considerations for Applicants:</div>                                           
+                        <div class="desc pb-35 text-sm text-primary">
+                            {{-- Key Considerations for Applicants: --}}
+                        </div>                                           
                     </div>
 
                     <div class="col-lg-12">
-                        <h3 class="title title-2">
-                            Factors to be considered while applying for CTE:
-                        </h3>
-                        <ul style="list-style: disc; padding: 0px 26px;">
-                            <li>Project type and scale</li>
-                            <li>Location and surrounding environment</li>
-                            <li>Raw materials and processes involved</li>
-                            <li>Expected wastewater discharge and air emissions</li>
-                            <li>Proposed pollution control measures (ETP, STP, APC equipment)</li>
-                            <li>Water balance and resource consumption</li>
-                            <li>Waste generation and disposal methods</li>
-                            <li>Compliance with environmental standards and regulations</li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-12">
-                        <h3 class="title title-2">
-                            Factors to be considered while applying for CTO:
-                        </h3>
-                        <ul style="list-style: disc; padding: 0px 26px;">
-                            <li>Completion of construction as per CTE conditions</li>
-                            <li>Installation and functionality of pollution control equipment</li>
-                            <li>Operational efficiency of environmental management systems</li>
-                            <li>Compliance with all specific conditions mentioned in the CTE</li>
-                            <li>Readiness to monitor and report environmental parameters</li>
-                            <li>Waste management procedures in place</li>                           
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-12">
-                        <h3 class="title title-2">
-                            Factors to be considered while applying for renewal of CTO:
-                        </h3>
-                        <ul style="list-style: disc; padding: 0px 26px;">
-                            <li>Track record of compliance with previous CTO conditions</li>
-                            <li>Results of past compliance audits and monitoring reports</li>
-                            <li>Any changes in process or production capacity</li>
-                            <li>Effectiveness of existing pollution control measures</li>
-                            <li>Adherence to new environmental norms or standards (if any)</li>
-                            <li>Payment of applicable fees</li>
-                        </ul>
+                        <h2 class="title title-2">
+                            {{-- Factors to be considered while applying for CTE: --}}
+                        </h2>
                     </div>
                 </div>
                 <div class="shape-image">
@@ -117,21 +84,13 @@
             <div class="container">
                 <div class="sec-title2 text-center mb-30">
                     <p class="title white-color" style="max-width:100%;">
-<<<<<<< HEAD
-                        Would You Like to know more on how {{env('SITENAME')}} can help you meet your CGWA needs?</p>
+                        Would You Like to know more on how {{env('SITENAME')}}  can help you meet your Green Building Certification related needs?</p>
                     <button class="readon learn-more submit  mb-30  mt-30"><a href="contact-us.html"
                             class="text-white">Contact Us</a> </button>
-                    <div class="text-white">With extensive expertise and strong team of well qualified and experienced technologists, {{env('SITENAME')}} is at the forefront for providing end to end solutions for Central Ground Water Clearance including hydro geological studies needs as per bylaws, exploring on campus and off campus options for compensating for the ground water used. {{env('SITENAME')}} has been providing CGWA services at a Pan India level and completed more than 1000 such cases across several states in India.</div>
-=======
-                        Would You Like to know more on how {{env('SITENAME')}}  can help you meet your CGWA needs?</p>
-                    <button class="readon learn-more submit  mb-30  mt-30"><a href="contact-us.html"
-                            class="text-white">Contact Us</a> </button>
-                    <div class="text-white">With extensive expertise and strong team of well qualified and experienced technologists, {{env('SITENAME')}}  is at the forefront for providing end to end solutions for Central Ground Water Clearance including hydro geological studies needs as per bylaws, exploring on campus and off campus options for compensating for the ground water used. {{env('SITENAME')}}  has been providing CGWA services at a Pan India level and completed more than 1000 such cases across several states in India.</div>
->>>>>>> f7308565bf84dc0845d6beda4801509227202554
+                    <div class="text-white">Since a proper design is the first step towards a final product implementation, it is important to choose a company who has sufficient hands-on experience in making such design and implementations. {{env('SITENAME')}}  with its extensive engineering design and implementation experience, capitalizes on its end-to-end experience of several years to meet your design needs in the most optimal manner.</div>
                 </div>
             </div>
         </div>
-        <hr>
         <!-- Pricing section start -->
         {{-- <div class="rs-pricing style2 gray-color pt-80 pb-80 md-pt-80 md-pb-80">
             <div class="container">
